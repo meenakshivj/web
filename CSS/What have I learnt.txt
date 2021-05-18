@@ -1,0 +1,7 @@
+CSS
+1. Color and background properties
+2. Color Systems: RGB and named colors
+3. Color Systems: Hexadecimel
+4. Common text properties
+5. Font sizes basics with pixels
+6. Font family property

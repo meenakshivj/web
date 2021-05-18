@@ -1,0 +1,32 @@
+/* 
+* {
+    color: purple;
+    background-color: cyan;
+}
+ */
+body {
+    background-color: #f5abc9;
+}
+
+button {
+    font-size: 30px;
+    background-color: #fbc6a4;
+}
+h1, h2{
+    color: #e93b81;
+}
+#Fish {
+    background-color: #233e8b;
+    color: #9fe6a0;
+}
+.tag {
+    background-color: #f55c47;
+    color: floralwhite;
+    font-size: 16px;
+}
+section a {
+    color: #00adb5;
+}
+footer a{
+    color: #cf0000;
+}

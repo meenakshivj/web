@@ -5,3 +5,7 @@ CSS
 4. Common text properties
 5. Font sizes basics with pixels
 6. Font family property
+7. Universal and Element selectors
+8. ID selectors
+9. Class selectors
+10. Decentdant selector

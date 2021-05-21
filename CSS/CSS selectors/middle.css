@@ -1,0 +1,44 @@
+/* 
+* {
+    color: purple;
+    background-color: cyan;
+}
+ */
+body {
+    background-color: #f5abc9;
+}
+
+button {
+    font-size: 30px;
+    background-color: #fff5ab
+}
+h1 {
+    color: #c449c2;
+}
+h2 {
+    color: #f21170;
+}
+span {
+    color: #822659;
+}
+#signme{
+    background-color: #aa2ee6;
+    color: #ffffff;
+}
+.tag {
+    background-color: #1cc5dc;
+    font-size: 16px;
+}
+.me{
+    background-color: #faf1e6;
+}
+
+section a{
+    color: #23049d;
+}
+footer a{
+    color: #cf0000;
+}
+.post a{
+    color: cadetblue;
+}

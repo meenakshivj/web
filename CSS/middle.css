@@ -47,13 +47,13 @@ footer a{
     font-weight: 700;
     text-decoration: none;
 }
-input + button{
+/*input + button{
     background-color: #eca3f5;
-}
-h2 + button{
+}*/
+/*h2 + button{
 font-size: 20px;
 background-color: mediumseagreen;
-}
+}*/
 footer > a{
     color: #890596;
 }
@@ -97,3 +97,10 @@ p::selection{
     background-color: #f21170;
     color: #fcecdd;
 }
+button:hover{
+    background-color: mediumaquamarine;
+    /*font-size: 10px;*/
+}
+/*button{
+    background-color: blue !important;
+}*/

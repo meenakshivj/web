@@ -1,0 +1,47 @@
+HTML-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inheritance demo</title>
+    <link rel="stylesheet" href="inheritance demo.css">
+</head>
+<body>
+  <h1>The Header</h1>
+  <section>
+      <h2>The Subheader</h2>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi ullam neque quam soluta nisi, sint dolor iste debitis obcaecati consequuntur numquam inventore minima officia nihil dolorem, quaerat voluptas, eaque accusamus.
+      </p>
+      <p>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt, aliquid nam possimus quibusdam consequuntur esse aspernatur veniam laborum eum? Dignissimos modi adipisci maiores, aperiam doloremque odio voluptates accusantium molestiae blanditiis.
+      </p>
+  </section> 
+  <section>
+    <h2>Another Subheader</h2>
+<form action="Meenu">
+<label for="username">Username</label>
+<input type="text" placeholder="username" id="username">
+<button>Meenu</button>
+</form>
+  </section> 
+</body>
+</html>
+CSS-
+body{
+    color: purple;
+}
+h1 {
+    color: blue ;
+}
+section{
+    color: crimson;
+}
+form{
+    color: #1cc5dc;
+}
+button, input{
+    color: inherit;
+}

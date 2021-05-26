@@ -1,0 +1,77 @@
+THE 
+PURPLE :HTML - nouns
+DINO :CSS - adjectives
+DANCED :JS - verbs
+
+HTML IS A MARKUP LANGUAGE
+WHAT IS A MARKUP LANGUAGE?
+How would you describe this paper's structure to someone over the phone so that they could reproduce it?
+What about morse code?
+MARKUP LANGUAGE MAKES:
+"Make this part bold"
+"Make this part a link"
+"Make this a paragraph"
+
+HTML ELEMENTS
+
+Common Elements include:
+To write HTML, we pick from a set of standard Elements  that all browsers recognize:
+<p> element - represents a paragraph of text
+<h1> element - represents the main header on a page
+<img> element - embeds an image
+<form> element - represents a form
+
+HTML TAGS
+We create elements by writing tags.
+Most (but not all) elements consist of an opening and closing tag.
+Eg: <p>I am a paragraph</p>
+
+YOU CAN FIND HELP IN THE SITE: MOZZILA DEVOLPER NETWORK
+
+HTML SKELETON
+We write our HTML in a standard "skeleton"
+TYPE ! and enter. U will get:
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My first page</title>
+</head>
+<body>
+</body>
+</html>
+
+HTML ELEMENTS:
+.PARAGRAPH ELEMENTS
+.HEADING ELEMENTS
+.CHROME INSPECTOR
+.HTML Boilerplate
+.List Elements
+.Anchor Tags
+.Images
+.Comments
+.Block vs. Inline Elements - Divs and Spans 
+.An Odd Assortment of Elements: HR, BR,
+Sup, & Sub
+.Entity Codes
+.Intro to Semantic Markup
+.Screen Reader Demonstration
+.VSCode Tip: Emmet
+.Tables: TR, TD, and TH Elements
+.Tables: Thead, Tbody, and Tfoot Elements
+.Tables: Colspan & Rowspan
+.The Form Element
+.Common Input TypesCommon Input Types
+.The All-Important Label
+.HTML Buttons
+.The Name Attribute
+."Hijacking" Google & Reddit's Search
+.Radio Buttons, Checkboxes, & Selects
+.Range & Text Area
+
+
+
+
+

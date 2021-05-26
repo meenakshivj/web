@@ -43,9 +43,8 @@
 </form>
 <h2>Search YouTube</h2>
 <form action="https://www.youtube.com/results?search">
-<input type="text" name="search_query">
+<input type="text" name="query">
 <button>Search Youtube</button>
-<hr>
 <h1>More inputs!</h1>
 <form action="/birds">
     <h2>Here are some story books you can choose!</h2>

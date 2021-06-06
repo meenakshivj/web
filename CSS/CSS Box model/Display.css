@@ -1,0 +1,33 @@
+/**h1 {
+    color: #ac66cc;
+    background-color: #fc92e3;
+    border: 1px solid #ff449f;
+    display: inline;
+}
+span {
+    color: #04009a;
+    background-color: #00ead3;
+    border: 1px solid #185adb;
+}**/
+span {
+    background-color: #ff449f;
+    border: 1px solid black;
+    width: 500px;
+    padding: 50px; 
+    margin: 50px;
+}
+h1 {
+    background-color: cyan;
+    border: 1px solid black;
+    width: 300px;
+    padding: 50px;
+    margin: 100px;
+}
+div {
+    height: 200px;
+    width: 200px;
+    background-color: olivedrab;
+    border: 5px solid black;
+    display: inline-block;
+    margin: 50px;
+}

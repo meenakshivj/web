@@ -1,0 +1,77 @@
+section {
+    background-color: #caf7e3;
+    width: 800px;
+    height: 800px;
+}
+div {
+    background-color: #e4bad4;
+    width: 50%;
+    height: 50%;
+}
+h1 {
+    font-size: 40px;
+    border: 1px solid black;
+    line-height: 200%;
+}
+h3 {
+    font-size: 1.5em;
+}
+h2 {
+    font-size: 5em;
+    margin-left: 1em;
+}
+p{
+    font-size: 0.8em;
+} 
+article {
+    font-size: 30px;
+}
+button {
+    font-size: 1em;
+    padding: 0 1em;
+    border-radius: 0.5em;
+    background-color: #1cc5dc;
+    color: white;
+}
+ul {
+    font-size: 1.5em;
+}
+#percentages {
+    background-color: #a7bbc7;
+    width: 800px;
+    height: 800px;
+}
+#percentages div{
+    background-color: #f29191;
+    width: 70%;
+    height: 20%;
+}
+#ems h2{
+    font-size: 2em;
+    margin-left: 1em;
+}
+#ems h3{
+    font-size: 1.5em;
+}
+#ems p{
+    font-size: 1em;
+}
+#ems {
+    font-size: 15px;
+}
+#rems h2{
+    font-size: 6rem;
+    margin-left: 0rem;
+}
+#rems h3{
+    font-size: 3rem;
+}
+#rems ul{
+    font-size: 1.5rem;
+}
+#rems button{
+    font-size: 4rem;
+}
+#rems p{
+    font-size: 2.5rem;
+}

@@ -1,0 +1,78 @@
+CSS
+Pixels- It is the most commonly used absoule unit.
+1px does not necessarily equal the width of exactly one pixel! It is not recomended for responsive websites.
+eg: example {
+ background-color: #caf7e3;
+ width: 800px;
+ height: 800px;
+}
+
+Percentages- They are always related to some other value.
+Sometimes, Its a value from the parent and other items its a value from the element itself.
+width: 50%- half the width of the parent.
+line-height: 50%- half the font-size of the element itself.
+eg: example {
+    background-color: #e4bad4;
+    width: 50%;
+    height: 50%;
+}
+line-height: example {
+    font-size: 40px;
+    border: 1px solid black;
+    line-height: 200px;
+}
+
+em- EM'S ARE RELATIVE UNITS.
+With font-size, 1em equals the font-size of parent. 2em's is twice the font-size of the parent, etc.
+With other properties, 1em is equal to the computed font-size of the element itself.
+
+rem- ROOT EMS.
+Relative to root html element's font-size. Often easier to work with.
+If the root font-size is 20px, 1 rem is 20px, 2rem is 40px, etc.
+They are easier to work with than ems.
+
+opacity- The opacity CSS property sets the opacity of an element. 
+Opacity is the degree to which content behind an element is hidden, and is the opposite of transparency.
+eg: opacity: 0.33;
+
+position- The position CSS property sets how an element is positioned in a document. 
+The top, right, bottom, and left properties determine the final location of positioned elements.
+eg: 1. position: static;
+2. position: relative;
+top: 40px; left: 40px;
+3. position: absolute;
+top: 40px; left: 40px;
+
+Static-
+The element is positioned according to the normal flow of the document. 
+The top, right, bottom, left, and z-index properties have no effect. This is the default value.
+
+Relative-
+The element is positioned according to the normal flow of the document, and then offset relative to itself based on the values of top, right, bottom, and left. 
+The offset does not affect the position of any other elements; thus, the space given for the element in the page layout is the same as if position were static.
+This value creates a new stacking context when the value of z-index is not auto. Its effect on table-*-group, table-row, table-column, table-cell, and table-caption elements is undefined.
+
+Absolute- 
+The element is removed from the normal document flow, and no space is created for the element in the page layout. 
+It is positioned relative to its closest positioned ancestor, if any; otherwise, it is placed relative to the initial containing block. Its final position is determined by the values of top, right, bottom, and left.
+This value creates a new stacking context when the value of z-index is not auto. The margins of absolutely positioned boxes do not collapse with other margins.	
+
+Fixed-
+The element is removed from the normal document flow, and no space is created for the element in the page layout. 
+It is positioned relative to the initial containing block established by the viewport, except when one of its ancestors has a transform, perspective, or filter property set to something other than none (see the CSS Transforms Spec), in which case that ancestor behaves as the containing block. (Note that there are browser inconsistencies with perspective and filter contributing to containing block formation.) Its final position is determined by the values of top, right, bottom, and left.
+This value always creates a new stacking context. In printed documents, the element is placed in the same position on every page.
+
+Sticky-
+The element is positioned according to the normal flow of the document, and then offset relative to its nearest scrolling ancestor and containing block (nearest block-level ancestor), including table-related elements, based on the values of top, right, bottom, and left. The offset does not affect the position of any other elements.
+This value always creates a new stacking context. Note that a sticky element "sticks" to its nearest ancestor that has a "scrolling mechanism" (created when overflow is hidden, scroll, auto, or overlay), even if that ancestor isn't the nearest actually scrolling ancestor. 
+This effectively inhibits any "sticky" behavior (see the GitHub issue on W3C CSSWG).
+
+
+
+Transitions-
+CSS transitions provide a way to control animation speed when changing CSS properties. Instead of having property changes take effect immediately, you can cause the changes in a property to take place over a period of time. 
+For example, if you change the color of an element from white to black, usually the change is instantaneous. With CSS transitions enabled, changes occur at time intervals that follow an acceleration curve, all of which can be customized.
+Animations that involve transitioning between two states are often called implicit transitions as the states in between the start and final states are implicitly defined by the browser.
+
+Defining Transitions- CSS Transitions are controlled using the shorthand transition property.
+Transitions Property- The transition-property CSS property sets the CSS properties to which a transition effect should be applied.
